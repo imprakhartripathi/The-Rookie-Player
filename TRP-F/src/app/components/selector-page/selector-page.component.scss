@@ -30,11 +30,14 @@
   }
 
   .nav{
-    margin: 30px;
+    margin: 15px;
+    padding: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #121316;
+    border-radius: 20px;
 
     .logo{
         width: 20%;
