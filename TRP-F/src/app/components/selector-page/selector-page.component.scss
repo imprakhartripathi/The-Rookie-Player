@@ -1,0 +1,43 @@
+.parent {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to a new row */
+    gap: 30px;
+    justify-content: center;
+    
+  
+    .example-card {
+      flex: 1 1 calc(33.33% - 30px); /* Ensures 3 cards per row with spacing accounted */
+      max-width: 400px; /* Optional max-width */
+      box-sizing: border-box; /* Ensures padding/margins don't affect width */
+  
+      mat-card-title {
+        color: white;
+      }
+      mat-card-content {
+        color: white;
+      }
+      mat-card-header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+    }
+  
+    .example-header-image {
+      background-size: cover;
+    }
+  }
+
+  .nav{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        width: 20%;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+<div class="nav">
+    <img [src]="logoURL" alt="Logo" class="logo">
+    <button mat-icon-button routerLink="/help"><mat-icon>contact_support</mat-icon></button>
+</div>
+<div class="parent">
+    <mat-card
+      class="example-card"
+      appearance="outlined"
+      *ngFor="let season of seasons; let i = index"
+    >
+      <mat-card-header>
+        <mat-card-title>{{ season.name }}</mat-card-title>
+        <button mat-icon-button matTooltip="Play" (click)="playSeason(season.name)"><mat-icon>play_arrow</mat-icon></button>
+      </mat-card-header>
+      <img mat-card-image [src]="season.poster" [alt]="season.name" />
+      <mat-card-content>
+        <p>
+          {{ showFullText[i] ? season.desc : truncateText(season.desc) }}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button (click)="navigateToSeason(season.name)">Show More</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  
