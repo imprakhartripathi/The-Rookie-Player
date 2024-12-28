@@ -7,7 +7,7 @@
     >
       <mat-card-header>
         <mat-card-title>{{ season.name }}</mat-card-title>
-        <button mat-icon-button matTooltip="Play" (click)="playSeason(season.name)"><mat-icon>play_arrow</mat-icon></button>
+        <button mat-icon-button matTooltip="Play {{season.name}} Episode One" (click)="playSeason(season.name)"><mat-icon>play_arrow</mat-icon></button>
       </mat-card-header>
       <img mat-card-image [src]="season.poster" [alt]="season.name" />
       <mat-card-content>
