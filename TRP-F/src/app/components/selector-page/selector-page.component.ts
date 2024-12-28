@@ -10,7 +10,6 @@ import { SeasonMetadataService, Season } from '../../services/season-metadata.se
   styleUrls: ['./selector-page.component.scss'] // Fixed the key from `styleUrl` to `styleUrls`
 })
 export class SelectorPageComponent implements OnInit {
-  logoURL: string = 'assets/rookie_logo.png';
   seasons: Season[] = [];
   showFullText: boolean[] = []; // Tracks the state of 'Read More' for each season
 
@@ -47,11 +46,26 @@ export class SelectorPageComponent implements OnInit {
 
   navigateToSeason(seasonName: string): void {
     console.log(`Redirected to ${seasonName} Episode List`)
-    this.router.navigate(['/episodelist', seasonName]); // Fixed the navigate function syntax
+    const queryParams = {
+      sName: JSON.stringify(seasonName) // serialize form data as JSON string
+    };
+
+    this.router.navigate(['/episodelist'], { queryParams });
+    console.log("Logging QueryParams from the Selector "+queryParams);
   }
 
   playSeason(seasonName: string): void {
-    console.log(`Playing season: ${seasonName}`); // Implement your play logic here
-    this.router.navigate(['/player', seasonName]); // Fixed the navigate function syntax
+    console.log("Playing ", seasonName, "Episode ", 1);
+  
+    // Construct query parameters with the selected season and episode number
+    const queryParams = {
+      season: seasonName, // Send the selected season name
+      episode: 1 // Send the episode number
+    };
+  
+    // Navigate to the player component with query parameters
+    this.router.navigate(['/player'], { queryParams });
+  
+    console.log("Logging QueryParams from Selector:", queryParams);
   }
 }

@@ -47,6 +47,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatSliderModule } from '@angular/material/slider';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import { MatSliderModule } from '@angular/material/slider';
     SelectorPageComponent,
     PlayerComponent,
     EpisodeListComponent,
-    SupportComponent
+    SupportComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

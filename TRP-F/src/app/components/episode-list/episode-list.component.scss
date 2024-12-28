@@ -1,0 +1,65 @@
+.parent {
+    margin: 15px;
+}
+
+.header-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    mat-card-title {
+        color: white;
+        font-size: 52px;
+        margin-top: 12px;
+    }
+    mat-card-content{
+        color: white;
+        font-size: 26px;
+    }
+    p{
+        color: white;
+    }
+
+    img{
+        width: 25%;
+        margin: 12px;
+        border-radius: 6px;
+    }
+
+    .card-child {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .controls {
+            mat-icon{
+                scale: 2.5;
+            }
+        }
+    }
+  }
+
+  .episodes{
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to a new row */
+    gap: 15px;
+    .example-card {
+        flex: 1 1 calc(33.33% - 30px); /* Ensures 3 cards per row with spacing accounted */
+        max-width: 450px; /* Optional max-width */
+        height: 175px;
+        box-sizing: border-box; /* Ensures padding/margins don't affect width */
+        mat-card-title {
+            color: white;
+        }
+        mat-card-header{
+            justify-content: space-between;
+            align-items: center;
+        }
+        p{
+            color: white;
+        }
+      }
+  }
+

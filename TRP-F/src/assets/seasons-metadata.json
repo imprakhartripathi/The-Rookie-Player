@@ -4,6 +4,7 @@
         "desc": "John Nolan is a man in his 40s, recently divorced, with a son in college and a construction business. After a harrowing experience during a bank robbery, he decides to become a cop, and as the LAPD is one of the few forces to accept officers his age, he packs up his belongings and moves to Los Angeles. We pick up his story just after he's graduated from the police academy when he's been assigned to the Mid-Wilshire division along with two other rookies.",
         "poster": "https://static1.srcdn.com/wordpress/wp-content/uploads/trailers/episode_poster/185643_Season%201.jpg",
         "location": "seasons/one",
+        "cast": "Nathan Fillion, Alyssa Diaz, Richard T. Jones, Titus Makin, Mercedes Mason, Melissa O'Neil, Afton Williamson, Eric Winter",
         "episodes": [
             { "epno": 1, "title": "Pilot", "desc": "Starting over isn't easy, especially for John Nolan who, after a life-altering incident, is pursuing his dream of joining the LAPD." },
             { "epno": 2, "title": "Crash Course", "desc": "Talia forces Nolan to confront his personal moral instincts in order to be a good cop after he encounters a kidnapping victim." },
@@ -32,6 +33,7 @@
         "desc": "As of the first episode of season two, all three rookies have passed the exam, some with better scores than others. The season introduces Nyla Harper, who becomes John Nolan's new T.O. At the end of season two, the rookies were entering their final month of training, during which they were warned of more pressure and scrutiny than ever before.",
         "poster": "https://static1.srcdn.com/wordpress/wp-content/uploads/trailers/episode_poster/185643_Season%202.jpg",
         "location": "seasons/two",
+        "cast": "Nathan Fillion, Alyssa Diaz, Richard T. Jones, Titus Makin, Melissa O'Neil, Mekia Cox, Eric Winter",
         "episodes": [
         { "epno": 1, "title": "Impact", "desc": "The rookies face the aftermath of a severe accident involving Officer Bradford. Nolan begins his training with new TO Nyla Harper, who has recently returned from undercover work." },
         { "epno": 2, "title": "The Night General", "desc": "Nolan works with Harper on a case involving a murder at a convenience store, while Jackson and Lopez investigate a series of robberies targeting pharmacies." },
@@ -60,6 +62,7 @@
         "desc": "As a consequence of the investigation he and his new training officer, Nyla Harper, undertook without official sanction at the end of season two, Nolan does not exit the FTO program with Jackson West and Lucy Chen, but has to continue in the program for an additional month.",
         "poster": "https://static1.srcdn.com/wordpress/wp-content/uploads/trailers/episode_poster/185643_Season%203.jpg",
         "location": "seasons/three",
+        "cast": "Nathan Fillion, Alyssa Diaz, Richard T. Jones, Titus Makin, Melissa O'Neil, Mekia Cox, Eric Winter, Shawn Ashmore",
         "episodes": [
         { "epno": 1, "title": "Consequences", "desc": "Officer Nolan faces the fallout of his actions in the previous season finale as he tries to clear his name and regain the trust of his colleagues." },
         { "epno": 2, "title": "In Justice", "desc": "The team investigates a case involving a wrongfully accused suspect, sparking a heated debate about justice and accountability." },
@@ -81,6 +84,7 @@
         "name": "Season Four",
         "desc": "The fourth season picks up where the last season ended with a pregnant Angela Lopez being taken to Guatemala to be held hostage by La Fiera until the former gives birth, after which La Fiera plans to kill Angela and keep the baby. Sergeant Grey and a team of LAPD take on the dual tasks of finding and rescuing Angela and apprehending a man who killed Jackson West during the kidnapping. As the season progresses, Wesley Evers confronts the consequences of a deal he made with a crime boss, Nolan finally exits the FTO and starts a relationship with Bailey Nune, and Nyla Harper takes on a new rookie, Aaron Thorsen.",
         "poster": "https://static1.srcdn.com/wordpress/wp-content/uploads/trailers/episode_poster/185643_Season%204.jpg",
+        "cast": "Nathan Fillion, Alyssa Diaz, Richard T. Jones, Jenna Dewan, Melissa O'Neil, Mekia Cox, Eric Winter, Shawn Ashmore",
         "location": "seasons/four",
         "episodes": [
         { "epno": 1, "title": "Life and Death", "desc": "Officer Nolan and the entire team race against the clock to locate Lopez after she is kidnapped on her wedding day, not only to save her life but her unborn child's." },
@@ -112,6 +116,7 @@
         "desc": "In season 5, John Nolan is the recipient of a 'golden ticket' due to his heroic actions in the season 4 finale, and as a result he fulfills his goal of becoming a training officer. His first rookie, Celina Juarez, presents some challenges to Nolan's methods of training, but they eventually bond in spite of those challenges. Nyla Harper and her husband James Murray move into a new house, and Harper gives birth to their daughter Leah, while Angela Lopez finds herself pregnant again. Bradford and Chen finally come together both as a couple and as fellow officers, as Tim transfers to the LAPD Metro Division. Wesley Evers deals with the fallout from his involvement with Elijah Stone, who ends up incarcerated.",
         "poster": "https://static1.srcdn.com/wordpress/wp-content/uploads/trailers/episode_poster/185643_Season%205.jpg",
         "location": "seasons/five",
+        "cast": "Nathan Fillion, Alyssa Diaz, Richard T. Jones, Jenna Dewan, Melissa O'Neil, Mekia Cox, Eric Winter, Shawn Ashmore, Tru Valentino",
         "episodes": [
         { "epno": 1, "title": "Double Down", "desc": "Nolan faces serial killer Rosalind Dyer again while Bradford and Chen work undercover to arrest criminals." },
         { "epno": 2, "title": "Labor Day", "desc": "Nolan's new role as a training officer advances, and Lucy earns an invitation for special training." },
@@ -142,6 +147,7 @@
         "desc": "After the attack on Mid-Wilshire personnel in the final episode of season 5, it turns out to have been a diversion to enable a massive robbery at the Federal Reserve Bank. The only person captured in connection with the robbery is killed by an unknown sniper, who seems to be advised by attorney Monica Stevens. John Nolan and Bailey Nune get married, but their honeymoon on a remote island is interrupted by their discovery of a dead body that washes up on the shore. In a later episode, they discuss whether to have a baby despite their previous resolve not to have children.",
         "poster": "https://static1.srcdn.com/wordpress/wp-content/uploads/trailers/episode_poster/185643_Season%206.jpg",
         "location": "seasons/six",
+        "cast": "Nathan Fillion, Alyssa Diaz, Richard T. Jones, Jenna Dewan, Melissa O'Neil, Mekia Cox, Eric Winter, Shawn Ashmore, Tru Valentino, Lesseth Chavez",
         "episodes": [
         { "epno": 1, "title": "Strike Back", "desc": "In the aftermath of the assaults, the team must now try to understand why they were targeted and if there is a bigger plan in place." },
         { "epno": 2, "title": "The Hammer", "desc": "The team comes together to celebrate John and Bailey's wedding; meanwhile, Celina discovers a discrepancy in her case, leading to a new discovery. Elsewhere, Lucy and Tim's relationship is put to the test." },

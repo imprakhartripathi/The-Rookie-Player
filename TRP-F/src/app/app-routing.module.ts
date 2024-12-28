@@ -7,9 +7,9 @@ import { EpisodeListComponent } from './components/episode-list/episode-list.com
 
 const routes: Routes = [
   { path: '', component: SelectorPageComponent, data: { title: 'The Rookie - Season Selector' } },
-  { path: 'player/:term', component: PlayerComponent, data: { title: 'The Rookie - Player' } },
+  { path: 'player', component: PlayerComponent, data: { title: 'The Rookie - Player' } },
   { path: 'help', component: SupportComponent, data: { title: 'The Rookie - Help' } },
-  { path: 'episodelist/:term', component: EpisodeListComponent, data: { title: 'The Rookie - Episode List' } }
+  { path: 'episodelist', component: EpisodeListComponent, data: { title: 'The Rookie - Episode List' } }
 ];
 
 @NgModule({
