@@ -9,7 +9,7 @@ import { PlayerComponent } from './components/player/player.component';
 import { EpisodeListComponent } from './components/episode-list/episode-list.component';
 import { SupportComponent } from './components/support/support.component';
 
-
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Required for Material Animations
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
@@ -61,6 +61,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
+    MatProgressBarModule,
     AppRoutingModule,
     MatIconModule,
     MatButtonModule,

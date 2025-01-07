@@ -1,0 +1,60 @@
+/* player.component.css */
+.video-container {
+    width: 100%;
+    height: 99.4%;
+    background: black;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .controls-top {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+    mat-icon {
+      scale: 1.25;
+    }
+  }
+  
+  .controls-center {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 50px;
+
+    mat-icon {
+      scale: 2.5;
+    }
+  }
+  
+  .progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .fullscreen-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  mat-icon {
+    color: white;
+
+    :disabled{ 
+      color: grey;
+    }
+  }
+  

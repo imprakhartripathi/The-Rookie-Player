@@ -1,1 +1,31 @@
-<p>player works!</p>
+<!-- player.component.html -->
+<div class="video-container">
+    <video id="video-player" class="video-player" [src]="safeURL" autoplay></video>
+    
+    <div class="controls-top">
+      <button mat-icon-button (click)="closePlayer()">
+        <mat-icon>close</mat-icon>
+      </button>
+      <button mat-icon-button>
+        <mat-icon>subtitles</mat-icon>
+      </button>
+    </div>
+  
+    <mat-progress-bar class="progress-bar" [value]="videoProgress" [bufferValue]="bufferProgress"></mat-progress-bar>
+  
+    <div class="controls-center">
+      <button mat-icon-button (click)="rewind10Seconds()">
+        <mat-icon>replay_10</mat-icon>
+      </button>
+      <button mat-icon-button (click)="togglePlayPause()">
+        <mat-icon>{{ isPlaying ? 'pause' : 'play_arrow' }}</mat-icon>
+      </button>
+      <button mat-icon-button (click)="forward10Seconds()">
+        <mat-icon>forward_10</mat-icon>
+      </button>
+    </div>
+  
+    <button mat-icon-button class="fullscreen-btn" (click)="toggleFullscreen()">
+      <mat-icon>fullscreen</mat-icon>
+    </button>
+  </div>
